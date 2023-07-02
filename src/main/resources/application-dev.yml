@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     username: root
-    password: lizhenjun123!
+    password: root
     druid:
       #2.连接池配置
       #初始化连接池的连接数量 大小，最小，最大
@@ -73,7 +73,7 @@ server:
 # canal 服务端配置
 canal:
   mode: simple
-  server: 43.138.208.23:11111
+  server: 192.168.0.1:11111
   destination: example
   batchSize: 100
 
